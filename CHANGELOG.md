@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+- Deprecated filtering methods in this library are now disabled by default.
+
 ## [v1.4.5] - 2017-03-07
 
 - Added support for globally disabling deprecated filtering methods via the
