@@ -132,7 +132,7 @@ module Sensu
       when ENV['SENSU_API_URL']
         uri = URI(ENV['SENSU_API_URL'])
         @api_settings = {
-          'host' => uri.host,
+          'host' => "#{uri.scheme}://#{uri.host}",
           'port' => uri.port,
           'user' => uri.user,
           'password' => uri.password
